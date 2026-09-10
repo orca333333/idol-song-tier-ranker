@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Idol Song Tier Ranker</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; color: #202341; font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Apple SD Gothic Neo", sans-serif; background: radial-gradient(circle at 10% 10%, #ffcfe0 0 8%, transparent 27%), radial-gradient(circle at 88% 16%, #d9d2ff 0 7%, transparent 26%), #fffaf5; }
+    main { width: min(850px, calc(100% - 32px)); padding: 48px 0; }
+    h1 { margin: 0; font-size: clamp(2.7rem, 8vw, 6rem); line-height: .84; letter-spacing: -.085em; }
+    h1 span { color: #ff4f88; }
+    p { margin: 18px 0 34px; font-weight: 650; color: #64617d; }
+    .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    a { min-height: 260px; display: flex; flex-direction: column; justify-content: space-between; padding: 27px; border: 1px solid #e6dfe4; border-radius: 23px; color: inherit; text-decoration: none; background: #fff; box-shadow: 0 13px 32px #3d255012; transition: transform .18s, box-shadow .18s; }
+    a:hover { transform: translateY(-6px); box-shadow: 0 20px 44px #3d255022; }
+    .tag { align-self: flex-start; padding: 7px 11px; border-radius: 99px; font-size: .76rem; font-weight: 850; background: #fff0f5; color: #e63c75; }
+    a:nth-child(2) .tag { background: #eeedff; color: #6454de; }
+    h2 { margin: 0; font-size: clamp(2rem, 5vw, 3.7rem); letter-spacing: -.08em; }
+    small { font-size: 1rem; font-weight: 800; color: #77738d; }
+    footer { margin-top: 22px; color: #858096; font-size: .8rem; text-align: center; }
+    @media (max-width: 600px) { .cards { grid-template-columns: 1fr; } a { min-height: 190px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>SONG<br><span>TIER</span> RANKER</h1>
+    <p>최애곡을 직접 드래그해 S–D 티어표로 만들어 보세요.</p>
+    <section class="cards">
+      <a href="chula.html"><span class="tag">42 SONGS</span><h2>chuLa</h2><small>티어 랭커 열기 →</small></a>
+      <a href="ilife.html"><span class="tag">44 GROUP SONGS</span><h2>iLiFE!</h2><small>티어 랭커 열기 →</small></a>
+    </section>
+    <footer>배치는 사용하는 브라우저에 자동 저장됩니다.</footer>
+  </main>
+</body>
+</html>
